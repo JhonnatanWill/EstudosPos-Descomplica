@@ -1,4 +1,4 @@
-public class variáveiseTiposdeDados {
+public class Variaveis {
 
     @SuppressWarnings("unused")
     public static void main(String[] args) {
