@@ -1,4 +1,5 @@
 public class Vetores {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int valor;
         int[] dados = new int[5];
