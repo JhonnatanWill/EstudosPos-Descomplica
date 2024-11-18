@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
 public class OperadoresAritimericos {
-    @SuppressWarnings("resource")
     public static void main(String[] args) {
         double numA, numB, total;
 
