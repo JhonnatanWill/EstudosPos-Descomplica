@@ -1,5 +1,4 @@
 public class UtilizandoVetores {
-    @SuppressWarnings("unused")
     public static void main(String[] args) {
         int[] passarosPorDia = {2,5,0,7,4,1,3,0,2,5,0,1,3,1};
         int totalPassaros = 0;
