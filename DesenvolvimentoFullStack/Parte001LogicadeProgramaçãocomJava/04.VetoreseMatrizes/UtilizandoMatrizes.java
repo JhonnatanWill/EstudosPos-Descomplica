@@ -26,15 +26,15 @@ public class UtilizandoMatrizes {
                 maiorLinha[2] = matriz[2][i];
         // Menor elemento na coluna 0
         for (int i=0; i<3; i++)
-            if(matriz[i][0] > menorColuna[0])
+            if(matriz[i][0] < menorColuna[0])
                 menorColuna[0] = matriz[i][0];
         // Menor elemento na coluna 1
         for (int i=0; i<3; i++)
-            if(matriz[i][1] > menorColuna[1])
+            if(matriz[i][1] < menorColuna[1])
                 menorColuna[1] = matriz[i][1];
         // Menor elemento na coluna 2
         for (int i=0; i<3; i++)
-            if(matriz[i][2] > menorColuna[2])
+            if(matriz[i][2] < menorColuna[2])
                 menorColuna[2] = matriz[i][2];
 
         for (int i=0; i<3; i++)
