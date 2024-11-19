@@ -3,5 +3,8 @@ public class ClassesMain {
         ClassesCao cachorro = new ClassesCao();
         cachorro.nome = "Bobby";
         cachorro.Anda();
+
+        ClassesCao dog = new ClassesCao("Lulu", 12);
+        dog.DadosClassesCao();
     }
 }
