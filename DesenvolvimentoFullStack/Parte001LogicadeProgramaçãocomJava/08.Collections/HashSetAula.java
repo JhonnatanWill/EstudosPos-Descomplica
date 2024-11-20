@@ -14,4 +14,4 @@ public class HashSetAula {
         }
     }
 }
-// Aqui ele imprime os valores individuais, fora de um Array.
+// Aqui ele imprime os valores individuais, fora de um Array, sem os couchetes[].
