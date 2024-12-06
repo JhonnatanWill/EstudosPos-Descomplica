@@ -85,14 +85,28 @@
         </table>
     </section>
     <section>
-        <h2>Contato</h2>
+        <h2>Orçamento</h2>
         <form method="get" action="">
             <label>Nome</label><br>
-            <input type="text" name="Nome"><br><br>
+            <input type="text" required name="nome"><br><br>
+
             <label>Email</label><br>
-            <input type="text" name="E-mail"><br><br>
+            <input type="email" required name="email"><br><br>
+
+            <label>Data de ida</label><br>
+            <input type="date" name="dataIda"><br><br>
+
+            <label>Data de volta</label><br>
+            <input type="date" name="dataVolta"><br><br>
+
+            <label>Quantidade de pessoas</label><br>
+            <input type="number" name="qtdPessoas"><br><br>
+
+            <label>Senha</label><br>
+            <input type="password" name="senha"><br><br>
+
             <label>Comentário</label><br>
-            <textarea rows="5" name="Comentário"></textarea><br>
+            <textarea rows="5" name="comentário"></textarea><br>
             <button>Salvar</button>
 
         </form>
