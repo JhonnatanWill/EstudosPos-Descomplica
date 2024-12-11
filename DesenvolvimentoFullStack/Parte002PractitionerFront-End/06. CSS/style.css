@@ -1,3 +1,20 @@
-li{
-    color: yellow;
+body{
+    font-weight: 400;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 2.2em;
+    color: #818181;
 }
+
+h1{
+    font-size: 63px;
+    color: #303030;
+}
+
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+}
+
