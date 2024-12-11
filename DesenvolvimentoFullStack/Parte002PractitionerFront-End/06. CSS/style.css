@@ -29,3 +29,25 @@ h2{
     font-weight: 600;
 }
 
+nav li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li{
+    float: left;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+}
+
+nav{
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: #e22525;
+    padding-right: 40px;
+}
