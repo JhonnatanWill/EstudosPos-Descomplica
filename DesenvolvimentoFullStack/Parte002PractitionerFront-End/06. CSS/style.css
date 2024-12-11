@@ -73,3 +73,11 @@ table tr:nth-child(even){
 table tr:nth-child(odd){
     background-color: #bdbdbd;
 }
+
+#pacotes .figuras figure{
+    display: inline-block;
+}
+
+#pacotes .figuras, .videos{
+    text-align: center;
+}
