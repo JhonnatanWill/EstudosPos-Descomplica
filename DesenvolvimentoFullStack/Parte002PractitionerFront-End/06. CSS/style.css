@@ -4,11 +4,22 @@ body{
     font-size: 15px;
     line-height: 2.2em;
     color: #818181;
+    margin: 0;
+}
+
+header{
+    background-color: #f4511e;
+}
+
+section, footer{
+    margin: 40px;
 }
 
 h1{
     font-size: 63px;
-    color: #303030;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
 
 h2{
