@@ -1,18 +1,6 @@
-body{
-    font-weight: 400;
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 2.2em;
-    color: #818181;
-    margin: 0;
-}
-
-header{
-    background-color: #f4511e;
-}
-
-section, footer{
-    margin: 40px;
+header p{
+    color: #ffffff;
+    font-weight: 600;
 }
 
 h1{
@@ -27,29 +15,6 @@ h2{
     text-transform: uppercase;
     color: #303030;
     font-weight: 600;
-}
-
-nav li a{
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-nav li{
-    float: left;
-}
-
-nav ul{
-    float: right;
-    list-style: none;
-}
-
-nav{
-    font-size: 12px;
-    letter-spacing: 4px;
-    height: 50px;
-    background-color: #e22525;
-    padding-right: 40px;
 }
 
 table{
@@ -72,12 +37,4 @@ table tr:nth-child(even){
 
 table tr:nth-child(odd){
     background-color: #bdbdbd;
-}
-
-#pacotes .figuras figure{
-    display: inline-block;
-}
-
-#pacotes .figuras, .videos{
-    text-align: center;
 }
