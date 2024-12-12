@@ -89,75 +89,75 @@
                 </tr>
             </tbody>
         </table>
-    </section>
+    </section><br>
 
     <section class="container-fluid bg-light">
-        <h2>Contato</h2>
+        <h2 class="text-center">Faça já seu orçamento</h2>
         <form method="get" action="">
             
             <fieldset>
                 <legend>Dados pessoais</legend>
-                <label>Nome</label><br>
-                <input type="text" required name="nome"><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">
+                        Nome:
+                    </label>
+                    <input type="text" class="form-control" required name="nome" id="nome">
+                </div>
 
-                <label>Email</label><br>
-                <input type="email" required name="email"><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="email">
+                        Email:
+                    </label>
+                    <input type="email" class="form-control" required name="email" placeholder="email@xyz.com" id="email">
+                </div>
 
-                <label>Data de ida</label><br>
-                <input type="date" name="dataIda"><br><br>
+                <div class="mb-3">
+                    <label class="form-label" for="dataIda">
+                        Data de ida:
+                    </label>
+                    <input type="date" class="form-control" name="dataIda" id="dataIda">
+                </div>
 
-                <label>Data de volta</label><br>
-                <input type="date" name="dataVolta"><br><br>
-
-                <label>Quantidade de pessoas</label><br>
-                <input type="number" name="qtdPessoas"><br>
+                <div class="mb-3">
+                    <label class="form-label" for="dataVolta">
+                        Data de volta:
+                    </label>
+                    <input type="date" class="form-control" name="dataVolta" id="dataVolta">
+                </div>
             </fieldset>
 
             <fieldset>
                 <legend>Quais serviços deseja contratar?</legend>
-                <label>
-                    <input type="checkbox" name="passagens" value="Passagens">Compra de passagens<br>
-                </label>
-                <label>
-                    <input type="checkbox" name="hospedagem" value="Hospedagem">Reserva de hospedagem<br>
-                </label>
-                <label>
-                    <input type="checkbox" name="veiculos" value="Veículos">Reserva de veículos<br>
-                </label>
+                <div class="form-check">
+                    <label class="form-check-label" for="compraPassagens">
+                        Compra de passagens
+                    </label>
+                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagens" id="compraPassagens">
+                </div>
+                
+                <div class="form-check">
+                    <label class="form-check-label" for="reservaHospedagens">
+                        Reserva de hospedagem
+                    </label>
+                    <input type="checkbox" class="form-check-input" name="hospedagem" value="Hospedagem" id="reservaHospedagens">
+                </div>
+
+                <div class="form-check">
+                    <label class="form-check-label" for="aluguelVeiculos">
+                        Aluguel de veículos
+                    </label>
+                    <input type="checkbox" class="form-check-input" name="veiculos" value="Veículos" id="aluguelVeiculos">
+                </div>
             </fieldset>
-
-            <fieldset>
-                <legend>Escolha a forma de pagamento?</legend>
-                <label>
-                    <input type="radio" name="formaPagamento" value="Cartão de crédito">Cartão de crédito<br>
-                </label>
-                <label>
-                    <input type="radio" name="formaPagamento" value="Boleto">Boleto<br>
-                </label>
-                <label>
-                    <input type="radio" name="formaPagamento" value="PIX">PIX<br>
-                </label>
-            </fieldset>
-
-            <fieldset>
-                <legend>Escolha o prazo para pagamento</legend>
-                <select name="prazoPagamento">
-                    <option value="aVista">Á vista</option>
-                    <option value="5x">5x sem juros</option>
-                    <option value="10x" selected>10x com juros</option>
-                </select>
-            </fieldset>
-
-            <label>Comentário</label><br>
-            <textarea rows="5" name="comentário"></textarea><br>
-            <button>Salvar</button>
-
+            <br>
+            <button class="btn btn-secondary">Salvar</button>
         </form>
-    </section>
-
+    </section><br>
+    
     <footer class="container-fluid bg-warning">
         <p>Desensolvido por Jhonnatan Will!</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
