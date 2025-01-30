@@ -15,3 +15,17 @@ console.log(posicao);
 var cortado = jogo.slice(0,5);
 console.log(cortado);
 
+var val = jogo.includes("Outro");
+console.log(val);
+
+var str1 = "Hello ";
+var str2 = "World!";
+var str3 = str1.concat(str2);
+console.log(str3);
+
+var frase = "         Pelo Sport nada?     ";
+console.log(frase.trim());
+
+var num = "1,2,3,4,5,6,7,8";
+var arr = num.split(",");
+console.log(arr);
