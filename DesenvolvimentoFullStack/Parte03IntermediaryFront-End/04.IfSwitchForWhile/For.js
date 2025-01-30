@@ -7,6 +7,10 @@ for (let caracteristica in carros){
     console.log(carros[caracteristica]);
 }
 
+for (let car of carros){
+    console.log(car.ano);
+}
+
 /*
 for(var i = 0; i < carros.length; i++){
     total += carros[i].ano
