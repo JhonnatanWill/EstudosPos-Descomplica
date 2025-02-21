@@ -44,3 +44,18 @@ console.log(arr1);
 arr1.pop();
 
 console.log(arr1);
+
+var arr2 = [1,2,3,4,5,6,7,8];
+
+arr2.splice(2,3);
+
+console.log(arr2);
+
+var nomes = ["Maria","João","Lucas","Pedro"];
+var novos = nomes.splice(1,2,"Luiz","Jhonn");
+console.log(nomes);
+console.log(novos);
+
+var pais = ["Brasil","Argentina","Colombia"];
+pais.unshift("Uruguai");
+console.log(pais);
